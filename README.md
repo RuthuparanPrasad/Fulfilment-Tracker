@@ -13,10 +13,16 @@ This is ideal for demoing how data automation and self-serve analytics can be de
 
 ---
 
-### 🚀 How to Run Locally
+📁 Dashboard Includes:
+- Apprentice progress tracking (nomination → onboarding)
+- Time-to-onboard metrics
+- Bottlenecks (e.g. 50+ days since assignment)
+- Coach capacity breakdown
+- Filters by employer, programme, and onboarding status
 
-1. Clone this repo
-2. Add your `creds.json` file or set `GOOGLE_CREDS_JSON` as an environment variable
-3. Run:
-   ```bash
-   python run_dashboard.py
+🧰 Tech Stack
+- Python (pandas, gspread, google-auth)
+- Google Sheets (data source)
+- SQLite
+- Metabase
+- Docker
