@@ -2,8 +2,6 @@
 
 This project is an end-to-end automated data pipeline and dashboard that tracks apprentice fulfilment progress using real-time (sample) data from Google Sheets.
 
-![Overview](screenshots/dashboard_preview_1.png)
-
 It includes:
 - 📄 Dynamic data extraction from Google Sheets using Python and `gspread`
 - 🧹 Data cleaning and transformation (e.g. tracking days to diagnostic, assignment, and onboarding)
@@ -28,3 +26,18 @@ This is ideal for demoing how data automation and self-serve analytics can be de
 - SQLite
 - Metabase
 - Docker
+
+## Tech Stack Flowchart
+
+![Flowchart](screenshots/flowchart.png)
+
+---
+
+## 📸 Dashboard Screenshots
+
+![Dashboard Preview 1](screenshots/dashboard_preview_1.png)
+
+![Dashboard Preview 2](screenshots/dashboard_preview_2.png)
+
+
+
